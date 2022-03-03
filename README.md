@@ -1,10 +1,12 @@
 # Siya's Quantum Adventure
 
 ## Introduction
-Quantum Computers have the potential to revolutionize computation by making certain problems solvable. While no quantum computer is yet sophisticated enough to carry out calculations that a classical computer can't, great progress is underway. The race for building less noisy quantum computers with more qubits is already begun. It's now quite important to attract teens to this field. We intend to blend the basics of Quantum Computing with a simple side-scroller game and AI Voice Assistance.
-
+This is webpage for my team project in Electrothon 4.0 conducted by NIT Hamirpur > The name of website is Siya's Quantum Odyssey 
 ### **About the project**
-In this project, we aim to develop a side-scroller game with AI Voice Aistance using Alan AI. The major purpose of the game is to develop intrest of school and undergraduate students, or anyone who want to explore quantum computing. This project is build after idea validation step with response of 130 college students and market validation from the people working in the field of quantum computing and game development.
+In this webpage there are 4 sections Home , About , Game , Contact Here user get a responsive sheet page user send his query to team and in the contact section user get
+our social media handel working link which redirect user to our social media profile . In this website i try to show the pre build reviews by students and some industrials. 
+Basically this website is created for providing facility to user to contact to team and resolve his queries. 
+                                        
 <br>
 ### 🚀 Languages and Tools:
 
@@ -17,6 +19,6 @@ In this project, we aim to develop a side-scroller game with AI Voice Aistance u
     <a href="https://alan.app/" target="_blank"> <img src="https://alan.app/brand_assets/icon/grayscale/alan-logo-icon-grayscale.png" width="50px"/> </a>
 </p>
 
-### 📊 Stats we got from idea validation:
+
 
 
