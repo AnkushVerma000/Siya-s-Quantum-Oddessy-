@@ -24,6 +24,6 @@ Initially, a red box represents our character Siya. We will add sprite for her i
 Each project comes with its complications and challenges. Our team also had to face difficulties in our path. One of our major challenges was to collect helpful reviews for our project from all sources. We had to circulate our survey form on every forum that we could find. In the making of this project, we often had to come across such software which we had never used before. So learning new software and working on it for our project was a challenge as well.
 
 ### **Contributors:
-Ashmit JaiSarita Gupta - Game Design and Development
-Ankush Verma - Website Development
+Ashmit JaiSarita Gupta - Game Design and Development <br> 
+Ankush Verma - Website Development <br>
 Divyam Jha - Content Writer
