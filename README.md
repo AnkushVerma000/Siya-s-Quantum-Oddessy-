@@ -1,4 +1,4 @@
-# Siya's Quantum Adventure
+# Siya's Quantum Oddessy
 
 ## Introduction
 This is webpage for my team project in Electrothon 4.0 conducted by NIT Hamirpur > The name of website is Siya's Quantum Odyssey 
