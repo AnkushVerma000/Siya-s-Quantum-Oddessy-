@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sia's Quantum Oddessy</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Siya's Quantum Oddessy</a>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="/Game/dist/index.html">Game</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="./assets/stars.png" id="stars">
+        <img src="./assets/moon.png" id="moon">
+        <img src="./assets/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Siya's Quantum Oddessy</h2>
+        <a href="/Game/dist/index.html" id="btn">Play</a>
+        <img src="./assets/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>GAMEPLAY</h2>
+        <p>Siya is our main character. Enemy qubits have challenged her to a duel. She has to use her qubit balls to destroy the enemy ones. Once all enemy qubit balls are destroyed , Sia wins.
+            <br><br>
+            White qubit ball represent 0 and black qubit ball represents 1. X will change the colour of the ball and H will bring it into superposition. Superposed qubits are shown in grey.
+            <br><br>
+            Siya will unlock her qubit by writing a qiskit code just like a cheat code. She will unlock a quantum gate to transform her qubit in the same way. New gates will come at each level to increase the power levels and boost her.
+         <br><br>
+         Each gate will come as an upgrade which can be purchased through coins. 100 coins will be given at the start of the game. Siya will get 50 coins for clearing level 1 and more coins will be given as the game progresses.</p>
+    </div>
+
+    <script>
+        let stars = document.getElementById("stars")
+        let moon = document.getElementById("moon")
+        let mountains_behind = document.getElementById("mountains_behind")
+        let mountains_front = document.getElementById("mountains_front")
+        let text = document.getElementById("text")
+        let btn= document.getElementById("btn")
+        let header = document.querySelector('header')
+
+        addEventListener('scroll', function() { // Scrooling effects
+           
+        let value = scrollY;
+            stars.style.left = Math.min(value * 0.25 , stars.height) + "px";
+            moon.style.top = Math.min(value * 1.05 , moon.height) + "px";
+            mountains_behind.style.top = Math.min(value * 0.5 , mountains_behind.height) + "px";
+            mountains_front.style.top = Math.min(value * 0 , mountains_front.height) + "px";
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 0.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+</body>
+</html>
